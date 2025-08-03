@@ -1,6 +1,6 @@
 
 
-const BASE_URL="https://wellness-app-hrbq.onrender.com/";
+const BASE_URL="https://wellness-app-hrbq.onrender.com";
 
 //AUTH ENDPOINTS
 export const endpoints={
