@@ -68,7 +68,7 @@ export const AddSessions = () => {
   return (
     <>
     <form
-      onSubmit={handleSubmit(onSubmit(status))}
+      onSubmit={(e) => e.preventDefault()}
       className="space-y-8 rounded-md border-[1px] border-richblack-700 bg-richblack-800 p-6"
     >
       {/* Session Title */}
