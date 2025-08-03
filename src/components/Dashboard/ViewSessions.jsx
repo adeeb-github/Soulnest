@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const ViewSessions = () => {
-  const { user } = useSelector((state) => state.profile);
+  
   const [sessions, setSessions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [confirmationModal, setConfirmationModal] = useState(null);
