@@ -129,7 +129,8 @@ export const AddSessions = () => {
                            text2: "The Session Will Be Published",
                            btn1Text: "Publish",
                            btn2Text: "Cancel",
-                           btn1Handler: () => dispatch(handleSubmit(onSubmit('published'))),
+                           btn1Handler: handleSubmit(onSubmit('published')),
+,
                            btn2Handler: () => setConfirmationModal(null),
                          })
             }
@@ -146,7 +147,8 @@ export const AddSessions = () => {
                            text2: "The Session Will Be Saved As A Drraft",
                            btn1Text: "Draft",
                            btn2Text: "Cancel",
-                           btn1Handler: () => dispatch(handleSubmit(onSubmit('draft'))),
+                          btn1Handler: handleSubmit(onSubmit('draft')),
+,
                            btn2Handler: () => setConfirmationModal(null),
                          })
             }
