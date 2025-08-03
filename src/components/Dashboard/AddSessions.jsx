@@ -35,7 +35,7 @@ export const AddSessions = () => {
 
     const fileName = `${cleanTitle}-${Date.now()}.json`;
 
-    const { data: uploadData, error: uploadError } = await supabase.storage
+    const {  error: uploadError } = await supabase.storage
       .from('sessions')
       .upload(fileName, jsonBlob);
 
