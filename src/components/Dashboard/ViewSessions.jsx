@@ -1,5 +1,5 @@
 import  { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
+
 import { getSessionData } from '../../services/operations/SessionDetailsApi';
 import ConfirmationModal from '../Common/ConfirmationModal';
 import { useNavigate } from 'react-router-dom';
