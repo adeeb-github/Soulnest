@@ -16,7 +16,7 @@ export const AddSessions = () => {
   } = useForm();
 
   const dispatch = useDispatch();
-  const [status, setStatus] = useState("published");
+ 
    const [confirmationModal, setConfirmationModal] = useState(null)
 
   const onSubmit = (statusParam) => async (data) => {
