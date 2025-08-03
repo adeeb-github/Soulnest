@@ -130,7 +130,7 @@ export const AddSessions = () => {
                            btn1Text: "Publish",
                            btn2Text: "Cancel",
                            btn1Handler: handleSubmit(onSubmit('published')),
-,
+
                            btn2Handler: () => setConfirmationModal(null),
                          })
             }
@@ -148,7 +148,7 @@ export const AddSessions = () => {
                            btn1Text: "Draft",
                            btn2Text: "Cancel",
                           btn1Handler: handleSubmit(onSubmit('draft')),
-,
+
                            btn2Handler: () => setConfirmationModal(null),
                          })
             }
