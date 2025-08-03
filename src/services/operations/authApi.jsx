@@ -2,7 +2,7 @@ import { toast } from "react-toastify";
 import { apiConnector } from "../apiConnector";
 import { setLoading ,setToken} from "../../slices/authSlice"
 import { endpoints } from "../apis";
-import axios from "axios";
+
 import {setUser} from "../../slices/profileSlice";
 
 const{SIGNUP_API,LOGIN_API}=endpoints;
