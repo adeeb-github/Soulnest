@@ -9,24 +9,24 @@ export const endpoints={
 
 }
 export const sessionendpoints = {
-    CREATE_SESSION_API: BASE_URL + "/session/createsession",
+    CREATE_SESSION_API: BASE_URL + "session/createsession",
    
 
 }
 
 export const getsessionendpoints={
-     ALL_SESSION_API:BASE_URL+ "/session/sessions",
+     ALL_SESSION_API:BASE_URL+ "session/sessions",
     
 }
 
 export const mysessionendpoints={
-     MY_SESSION_API:BASE_URL+"/session/my-sessions",
+     MY_SESSION_API:BASE_URL+"session/my-sessions",
 }
 export const deleteendpoints={
-    DELETE_SESSION_API:BASE_URL+"/session/delete",
+    DELETE_SESSION_API:BASE_URL+"session/delete",
     
 }
 
 export const addendpoints={
-    ADD_SESSION_API:BASE_URL+"/session/publish",
+    ADD_SESSION_API:BASE_URL+"session/publish",
 }
