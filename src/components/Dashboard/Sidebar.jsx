@@ -9,7 +9,7 @@ import ConfirmationModal from "../Common/ConfirmationModal"
 import SidebarLink from "./SidebarLink"
 
 export default function Sidebar() {
-  const { user, loading: profileLoading } = useSelector(
+  const {  loading: profileLoading } = useSelector(
     (state) => state.profile
   )
   const { loading: authLoading } = useSelector((state) => state.auth)
